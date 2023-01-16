@@ -1,0 +1,12 @@
+{
+    "plugins": [["tool1", "tool1"]],
+    "input": {
+        "tool1": {
+            "site": "hi.com", 
+            "names": ["hello", "hi"]
+        },
+        "tool2": {
+            "domains": ["whats up"]  
+        }
+    }
+}
