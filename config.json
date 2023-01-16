@@ -6,7 +6,7 @@
             "names": ["hello", "hi"]
         },
         "tool2": {
-            "domains": ["whats up"]  
+            "domains": ["example.com"]  
         }
     }
 }
