@@ -22,12 +22,12 @@ The ```input``` object contains the input that will be passed to each plugin. Ea
 ...
     "input" : {
         "foo": {
-            "bar": ["baz", "bed"]
+            "domains": ["baz.com", "bed.com"]
         }
     }
 ...
 ```
-The ```foo``` plugin will be passed ```"bar": ["baz", "bed"]```.
+The ```foo``` plugin will be passed ```"domains": ["baz.com", "bed.com"]```.
 
 ### Plugins
 Szell loads plugins based on the plugin names in ```config.json```. [importlib](https://docs.python.org/3/library/importlib.html) is used to import plugins at runtime. Plugins _MUST_ have the same filename as it is in the ```plugins``` array in ```config.json```. A ```foo``` plugin will be defined in the ```foo.py``` file.
